@@ -5,7 +5,7 @@
 I am a student developer passionate about **Web Development** and **AI Technologies**.
 I enjoy building distributed systems and exploring ways to integrate AI models into real-world applications.
 
-![](https://leetcard.jacoblin.cool/pung4905?border=0&radius=20)
+[![LeetCode Stats](https://leetcard.jacoblin.cool/pung4905?border=0&radius=20)](https://leetcode.com/pung4905)
 
 ---
 
