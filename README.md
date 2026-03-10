@@ -14,13 +14,13 @@ I enjoy building distributed systems and exploring ways to integrate AI models i
 #### [LoRA Community Platform](https://github.com/lxxzdrgnl/Lora-community)
 > **A Comprehensive Platform for Training, Sharing, and Generating AI LoRA Models.**
 
-> **Live Demo:** [Visit the Website](http://blueming-front.s3-website.ap-northeast-2.amazonaws.com/)
+> **Live Demo:** [Visit the Website](https://blueming.rheon.kr/)
 
 | Component | Stack | Description |
 | :--- | :--- | :--- |
-| **Core Backend** | [![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?logo=springboot&logoColor=white)](https://github.com/lxxzdrgnl/Lora-community) | User Auth (OAuth2/JWT), Business Logic, Database Management **(Deployed on AWS Elastic Beanstalk)** |
+| **Core Backend** | [![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?logo=springboot&logoColor=white)](https://github.com/lxxzdrgnl/Lora-community) | User Auth (OAuth2/JWT), Business Logic, Database Management **(Deployed on AWS Elastic Beanstalk -> self hosted)** |
 | **AI Serving** | [![FastAPI](https://img.shields.io/badge/FastAPI-005571?logo=fastapi&logoColor=white)](https://github.com/lxxzdrgnl/Lora-training-api) | **Data Preprocessing**, **Stable Diffusion-based AI Training & Generation** powered by **Modal (Serverless GPU)** |
-| **Frontend** | [![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?logo=vuedotjs&logoColor=white)](https://github.com/lxxzdrgnl/LoRA-Platform-Front) | Responsive Web UI hosted on **AWS S3** |
+| **Frontend** | [![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?logo=vuedotjs&logoColor=white)](https://github.com/lxxzdrgnl/LoRA-Platform-Front) | Responsive Web UI hosted on **AWS S3 -> self hosted** |
 
 ---
 
