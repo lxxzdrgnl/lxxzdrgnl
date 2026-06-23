@@ -1,11 +1,11 @@
-# Hi there, I'm Rheon Lee 👋
+# Hi there, I'm Rheon Lee
 
 ### A Curious Developer Who Thrives on Challenges
 
 I am a student developer passionate about **Web Development** and **AI Technologies**.
 I enjoy building distributed systems and integrating AI models into real-world applications.
 
-📝 **Blog:** [blog.rheon.kr](https://blog.rheon.kr) · 📫 **Contact:** [pung4905@naver.com](mailto:pung4905@naver.com)
+**Blog & Resume:** [blog.rheon.kr](https://blog.rheon.kr) · **Contact:** [pung4905@naver.com](mailto:pung4905@naver.com)
 
 [![LeetCode Stats](https://leetcard.jacoblin.cool/pung4905?border=0&radius=20)](https://leetcode.com/pung4905)
 
@@ -16,49 +16,30 @@ I enjoy building distributed systems and integrating AI models into real-world a
 #### [My Own Phoenix — LLM Observability & Evaluation Platform](https://github.com/lxxzdrgnl/My-Own-Phoenix)
 > LLM agent tracing, LLM-as-Judge auto-evaluation, financial risk (RMF) reporting, human review, and a PII guard — in one deployed capstone SaaS.
 >
-> 🌐 [Live](https://phoenix.rheon.kr/) · 📖 [Blog](https://blog.rheon.kr/projects/my-own-phoenix)
-
-#### [sajuguri — AI Fortune Reading Service](https://github.com/lxxzdrgnl/SAJUGURI)
-> AI four-pillar (saju) counseling that cross-analyzes your chart with your real concern for a conclusion, not a category — RAG-grounded interpretation with ReAct tool-calling chat and inline charts.
->
-> 🌐 [Live](https://sajuguri.rheon.kr/) · 📖 [Blog](https://blog.rheon.kr/projects/sajuguri)
-
-#### [blueming — LoRA Community Platform](https://github.com/lxxzdrgnl/Lora-community)
-> Upload a few character cuts and it auto-runs balloon removal, cropping, and captioning through LoRA training, generation, and sharing — heavy GPU work split onto serverless GPU for cost efficiency.
->
-> 🌐 [Live](https://blueming.rheon.kr/) · 📖 [Blog](https://blog.rheon.kr/projects/lora-community)
-
-#### [under-line — AI Lyrics Interpretation Service](https://github.com/lxxzdrgnl/UnderLine)
-> Line-by-line lyrics interpretation that decodes slang, AAVE, and cultural references into Korean — genre/mood-aware, grounded in Genius annotations, with Spotify integration.
->
-> 🌐 [Live](https://underline.rheon.kr/) · 📖 [Blog](https://blog.rheon.kr/projects/underline)
-
-#### [MATZIP — LangGraph Restaurant Recommendation Agent](https://github.com/lxxzdrgnl/restaurant-agent)
-> ReAct-based agent that calls Kakao/Naver/Google Places in parallel and picks the top 3 via deterministic aggregation + LLM self-verification — 5 agentic design patterns with distributed-tracing observability.
->
-> 📖 [Blog](https://blog.rheon.kr/projects/matzip-langgraph-restaurant-recommendation-ai-agent)
-
-#### [Restaurant MSA Ordering System](https://github.com/lxxzdrgnl/MSA-Restaurant)
-> Two-sided (customer/admin) microservice ordering system — 5 backends + 4 AI services behind a gateway, with RAG menu recommendations and generate→verify→regenerate safety on AI writes.
->
-> 📖 [Blog](https://blog.rheon.kr/projects/rheon-kitchen-restaurant-msa-ordering-system)
+> [Live](https://phoenix.rheon.kr/) · [Detail](https://blog.rheon.kr/projects/my-own-phoenix)
 
 #### [RoyaleLog — Clash Royale Analytics Platform](https://github.com/lxxzdrgnl/RoyaleLog-api)
 > Stats & deck tier-list service — large-scale collection pipeline bypassing API limits via seed+BFS, Bayesian-corrected tiers, and an ML win-rate predictor in a poly-repo MSA.
 >
-> 📖 [Blog](https://blog.rheon.kr/projects/royalelog-api)
+> [Detail](https://blog.rheon.kr/projects/royalelog-api)
 
-#### [Rheon's Blog](https://github.com/lxxzdrgnl/Rheon-Blog)
-> Bilingual (KO/EN) tech blog & portfolio — two languages per post, built-in AI translation, GitHub import, project↔post linking, auto thumbnails, and an MCP server.
+#### [sajuguri — AI Fortune Reading Service](https://github.com/lxxzdrgnl/SAJUGURI)
+> AI four-pillar (saju) counseling that cross-analyzes your chart with your real concern for a conclusion, not a category — RAG-grounded interpretation with ReAct tool-calling chat and inline charts.
 >
-> 🌐 [Live](https://blog.rheon.kr/) · 📖 [Blog](https://blog.rheon.kr/projects/rheon-s-blog)
+> [Live](https://sajuguri.rheon.kr/) · [Detail](https://blog.rheon.kr/projects/sajuguri)
+
+#### [blueming — LoRA Community Platform](https://github.com/lxxzdrgnl/Lora-community)
+> Upload a few character cuts and it auto-runs balloon removal, cropping, and captioning through LoRA training, generation, and sharing — heavy GPU work split onto serverless GPU for cost efficiency.
+>
+> [Live](https://blueming.rheon.kr/) · [Detail](https://blog.rheon.kr/projects/lora-community)
 
 ---
 
 ### Creative Projects
 
 #### AI Voice Conversion (RVC)
-> Created a G-Dragon AI cover using RVC (Retrieval-based Voice Conversion), garnering over **570K+ views** on YouTube.
+> **Showcasing practical AI application skills through content creation.**
+> Created a G-Dragon AI cover using RVC (Retrieval-based Voice Conversion) technology, garnering over **570K+ views** on YouTube.
 
 [![GD AI Cover](http://img.youtube.com/vi/QxKxegbUzS4/0.jpg)](https://www.youtube.com/watch?v=QxKxegbUzS4)
 
