@@ -3,7 +3,9 @@
 ### A Curious Developer Who Thrives on Challenges
 
 I am a student developer passionate about **Web Development** and **AI Technologies**.
-I enjoy building distributed systems and exploring ways to integrate AI models into real-world applications.
+I enjoy building distributed systems and integrating AI models into real-world applications.
+
+📝 **Blog:** [blog.rheon.kr](https://blog.rheon.kr) · 📫 **Contact:** [pung4905@naver.com](mailto:pung4905@naver.com)
 
 [![LeetCode Stats](https://leetcard.jacoblin.cool/pung4905?border=0&radius=20)](https://leetcode.com/pung4905)
 
@@ -11,76 +13,52 @@ I enjoy building distributed systems and exploring ways to integrate AI models i
 
 ### Projects
 
+#### [My Own Phoenix — LLM Observability & Evaluation Platform](https://github.com/lxxzdrgnl/My-Own-Phoenix)
+> LLM agent tracing, LLM-as-Judge auto-evaluation, financial risk (RMF) reporting, human review, and a PII guard — in one deployed capstone SaaS.
+>
+> 🌐 [Live](https://phoenix.rheon.kr/) · 📖 [Blog](https://blog.rheon.kr/projects/my-own-phoenix)
+
+#### [sajuguri — AI Fortune Reading Service](https://github.com/lxxzdrgnl/SAJUGURI)
+> AI four-pillar (saju) counseling that cross-analyzes your chart with your real concern for a conclusion, not a category — RAG-grounded interpretation with ReAct tool-calling chat and inline charts.
+>
+> 🌐 [Live](https://sajuguri.rheon.kr/) · 📖 [Blog](https://blog.rheon.kr/projects/sajuguri)
+
 #### [blueming — LoRA Community Platform](https://github.com/lxxzdrgnl/Lora-community)
-> **A Comprehensive Platform for Training, Sharing, and Generating AI LoRA Models.**
+> Upload a few character cuts and it auto-runs balloon removal, cropping, and captioning through LoRA training, generation, and sharing — heavy GPU work split onto serverless GPU for cost efficiency.
+>
+> 🌐 [Live](https://blueming.rheon.kr/) · 📖 [Blog](https://blog.rheon.kr/projects/lora-community)
 
-> **Live:** [blueming.rheon.kr](https://blueming.rheon.kr/) · **API:** [api-blueming.rheon.kr/swagger-ui](https://api-blueming.rheon.kr/swagger-ui.html)
+#### [under-line — AI Lyrics Interpretation Service](https://github.com/lxxzdrgnl/UnderLine)
+> Line-by-line lyrics interpretation that decodes slang, AAVE, and cultural references into Korean — genre/mood-aware, grounded in Genius annotations, with Spotify integration.
+>
+> 🌐 [Live](https://underline.rheon.kr/) · 📖 [Blog](https://blog.rheon.kr/projects/underline)
 
-A platform where users can train, share, and generate images using custom LoRA models built on Stable Diffusion. Includes a full training pipeline with data preprocessing, serverless GPU inference via Modal, and a community gallery for sharing results.
+#### [MATZIP — LangGraph Restaurant Recommendation Agent](https://github.com/lxxzdrgnl/restaurant-agent)
+> ReAct-based agent that calls Kakao/Naver/Google Places in parallel and picks the top 3 via deterministic aggregation + LLM self-verification — 5 agentic design patterns with distributed-tracing observability.
+>
+> 📖 [Blog](https://blog.rheon.kr/projects/matzip-langgraph-restaurant-recommendation-ai-agent)
 
-| Component | Stack |
-| :--- | :--- |
-| **Backend** | [![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?logo=springboot&logoColor=white)](https://github.com/lxxzdrgnl/Lora-community) Spring Boot · OAuth2/JWT · MySQL |
-| **AI Serving** | [![FastAPI](https://img.shields.io/badge/FastAPI-005571?logo=fastapi&logoColor=white)](https://github.com/lxxzdrgnl/Lora-training-api) FastAPI · Stable Diffusion · Modal (Serverless GPU) |
-| **Frontend** | [![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?logo=vuedotjs&logoColor=white)](https://github.com/lxxzdrgnl/LoRA-Platform-Front) Vue.js · Tailwind CSS |
-| **Infra** | Docker · Nginx · AWS → Self-hosted |
-
----
-
-#### [sajuguri — AI Fortune Reading Service](https://github.com/lxxzdrgnl/SajuNara)
-> **Your personal fortune, not a category — a conclusion.**
-
-> **Live:** [sajuguri.rheon.kr](https://sajuguri.rheon.kr) · **API:** [api-sajuguri.rheon.kr/docs](https://api-sajuguri.rheon.kr/docs)
-
-Korean traditional four-pillar astrology reimagined with AI. Instead of generic labels like "average wealth luck", the system cross-analyzes your birth chart and real concern to generate insights written only for you. A **RAG + multi-agent pipeline**: a pure Python calculation engine (12-step) feeds a ChromaDB knowledge base of 105 curated documents, which a Planner → Critic → Writer agent chain transforms into a structured 10-tab report.
-
-| Component | Stack |
-| :--- | :--- |
-| **Backend** | [![FastAPI](https://img.shields.io/badge/FastAPI-005571?logo=fastapi&logoColor=white)](https://github.com/lxxzdrgnl/SajuNara) FastAPI · LangChain (LCEL) · OpenAI GPT-4o |
-| **AI / RAG** | ChromaDB · Gemini embedding-001 · Strategy Pattern (GPT-4o / Gemini / Claude) |
-| **Frontend** | [![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?logo=vuedotjs&logoColor=white)](https://github.com/lxxzdrgnl/SajuNara) Nuxt.js 3 · Pinia · Tailwind CSS |
-| **Infra** | PostgreSQL · Docker · Google OAuth2 + JWT |
-
----
-
-#### [under-line — AI Lyrics Interpretation Service](https://github.com/lxxzdrgnl/under-line)
-> **Discover the hidden meaning behind every lyric, line by line.**
-
-> **Live:** [underline.rheon.kr](https://underline.rheon.kr) · **API:** [underline.rheon.kr/docs](https://underline.rheon.kr/docs)
-
-A line-by-line lyrics interpretation service. Search any song, and GPT-4o streams back translations, slang decoding, cultural references, and hidden meanings — per line. Spotify integration lets you import playlists and jump straight from NowPlaying to lyrics.
-
-| Component | Stack |
-| :--- | :--- |
-| **Full-stack** | [![Next.js](https://img.shields.io/badge/Next.js-000000?logo=next.js&logoColor=white)](https://github.com/lxxzdrgnl/under-line) Next.js 16 (App Router) · TypeScript · Tailwind CSS v4 |
-| **AI** | OpenAI GPT-4o (NDJSON streaming) · GPT-4o-mini (translation) |
-| **Data** | PostgreSQL · Prisma 7 · Genius API (search, scraping, annotations) |
-| **Integration** | Spotify Web API (NowPlaying, playlist import) · Google & Spotify OAuth (PKCE) |
-| **Infra** | Docker Compose · Nginx · Swagger UI |
-
----
-
-### In Progress
+#### [Restaurant MSA Ordering System](https://github.com/lxxzdrgnl/MSA-Restaurant)
+> Two-sided (customer/admin) microservice ordering system — 5 backends + 4 AI services behind a gateway, with RAG menu recommendations and generate→verify→regenerate safety on AI writes.
+>
+> 📖 [Blog](https://blog.rheon.kr/projects/rheon-kitchen-restaurant-msa-ordering-system)
 
 #### [RoyaleLog — Clash Royale Analytics Platform](https://github.com/lxxzdrgnl/RoyaleLog-api)
-> **Automated battle log collection, card tier lists, and AI-powered matchup predictions.**
+> Stats & deck tier-list service — large-scale collection pipeline bypassing API limits via seed+BFS, Bayesian-corrected tiers, and an ML win-rate predictor in a poly-repo MSA.
+>
+> 📖 [Blog](https://blog.rheon.kr/projects/royalelog-api)
 
-A full-stack Clash Royale analytics platform. The backend collects and processes **10M+ battle logs** via BFS expansion from top-ranked players, generates daily card tier lists, and delegates win-rate predictions to a FastAPI ML service. The frontend provides player search, match history, deck analysis, and stat visualizations.
-
-| Component | Stack |
-| :--- | :--- |
-| **Backend** | [![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?logo=springboot&logoColor=white)](https://github.com/lxxzdrgnl/RoyaleLog-api) Spring Boot 3 · Java 21 (Virtual Threads) · Spring Batch · Redis |
-| **ML Serving** | FastAPI · Matchup prediction model · Statistical fallback |
-| **Frontend** | [![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?logo=vuedotjs&logoColor=white)](https://github.com/lxxzdrgnl/RoyaleLog-front) Vue 3 · TypeScript · Vite · Pinia |
-| **Infra** | PostgreSQL · Redis · Docker / K3s · Prometheus + Micrometer |
+#### [Rheon's Blog](https://github.com/lxxzdrgnl/Rheon-Blog)
+> Bilingual (KO/EN) tech blog & portfolio — two languages per post, built-in AI translation, GitHub import, project↔post linking, auto thumbnails, and an MCP server.
+>
+> 🌐 [Live](https://blog.rheon.kr/) · 📖 [Blog](https://blog.rheon.kr/projects/rheon-s-blog)
 
 ---
 
 ### Creative Projects
 
 #### AI Voice Conversion (RVC)
-> **Showcasing practical AI application skills through content creation.**
-> Created a G-Dragon AI cover using RVC (Retrieval-based Voice Conversion) technology, garnering over **570K+ views** on YouTube.
+> Created a G-Dragon AI cover using RVC (Retrieval-based Voice Conversion), garnering over **570K+ views** on YouTube.
 
 [![GD AI Cover](http://img.youtube.com/vi/QxKxegbUzS4/0.jpg)](https://www.youtube.com/watch?v=QxKxegbUzS4)
 
@@ -94,23 +72,26 @@ A full-stack Clash Royale analytics platform. The backend collects and processes
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 
-**Backend & AI**
+**Backend**
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
-![Modal](https://img.shields.io/badge/Modal-Serverless_GPU-5D3FD3?style=for-the-badge)
 
 **Frontend**
 ![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=white)
-![Nuxt.js](https://img.shields.io/badge/Nuxt.js-00DC82?style=for-the-badge&logo=nuxtdotjs&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
+![React Native](https://img.shields.io/badge/React_Native-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+
+**AI**
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langgraph&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
 
 **Infrastructure & Database**
-![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-![Kubuntu](https://img.shields.io/badge/Kubuntu-0079C1?style=for-the-badge&logo=kubuntu&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![K3s](https://img.shields.io/badge/K3s-FFC61C?style=for-the-badge&logo=k3s&logoColor=black)
+![Airflow](https://img.shields.io/badge/Airflow-017CEE?style=for-the-badge&logo=apacheairflow&logoColor=white)
