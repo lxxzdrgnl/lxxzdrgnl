@@ -39,7 +39,7 @@ I enjoy building distributed systems and integrating AI models into real-world a
 
 #### AI Voice Conversion (RVC)
 > **Showcasing practical AI application skills through content creation.**
-> Created a G-Dragon AI cover using RVC (Retrieval-based Voice Conversion) technology, garnering over **570K+ views** on YouTube.
+> Created a G-Dragon AI cover using RVC (Retrieval-based Voice Conversion) technology, garnering over **600K+ views** on YouTube.
 
 [![GD AI Cover](http://img.youtube.com/vi/QxKxegbUzS4/0.jpg)](https://www.youtube.com/watch?v=QxKxegbUzS4)
 
